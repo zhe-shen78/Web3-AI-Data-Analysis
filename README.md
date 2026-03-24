@@ -5,13 +5,13 @@ This repository documents an intensive 14-day research plan focusing on **AI-sec
 ## 📊 Project Overview
 The goal of this initiative is to build a "Smart Money" tracking system and a robust risk signal framework. It leverages **Dune Analytics** and **Python** to bridge raw blockchain data with actionable market insights.
 
-## 📅 14-Day Research Roadmap (Progress: Day 4/14)
-I am following a structured [Execution Plan](./Plan/14-Day-Plan.md) to ensure data validity and methodology consistency:
-- [x] **Day 1-2**: Scope definition & multi-source data infrastructure on Dune.
-- [x] **Day 3**: Data cleaning pipeline (Filtering CEXs, contract addresses, and abnormal bots).
-- [x] **Day 4**: Developed **p80 Net-Flow Model** to isolate high-conviction capital.
-- [ ] **Day 5-7**: PnL profiling & Dashboard visualization.
-- [ ] **Day 8-14**: Sentiment factor integration & cross-validation.
+## 📅 14-Day Research Roadmap (Progress: Day 8/14 - Strategic Pivot)
+I am following a structured [Execution Plan](./Plan/14-Day-Plan.md). Due to external API/platform status, I have strategically pivoted to **Project 2 (AI Sentiment Analysis)** while keeping the foundational logic of Project 1 (Smart Money Tracking).
+
+- [x] **Day 1-4**: Completed Dune SQL infrastructure for Smart Money tracking (Solana & Ethereum).
+- [ ] **Day 5-7**: (Pending Platform Reinstatement) PnL profiling & Dashboard.
+- [x] **Day 8 (In Progress)**: **Strategic Shift to AI Sentiment Analysis**. Building a data pipeline to scrape and quantify off-chain sentiment factors (X/Twitter, Reddit, etc.).
+- [ ] **Day 9-14**: Sentiment scoring with LLMs & cross-validation with on-chain flow data.
 
 ## 🛠️ Core Module: Smart Money Tracking (DuneSQL)
 The tracking logic identifies significant movers by:
